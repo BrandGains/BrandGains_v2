@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <h1>Hello</h1>
-      <p>Nothing! why?</p>
+      <p>Nothing! when?</p>
     </>
   );
 }
