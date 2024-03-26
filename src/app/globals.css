@@ -2,3 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+:root,
+body,
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Monument Extended Font */
+@font-face {
+  font-family: "MonumentBlack";
+  src: url("/fonts/monument_extended/PPMonumentExtended-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MonumentBlackItalic";
+  src: url("/fonts/monument_extended/PPMonumentExtended-BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MonumentLight";
+  src: url("/fonts/monument_extended/PPMonumentExtended-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MonumentLightItalic";
+  src: url("/fonts/monument_extended/PPMonumentExtended-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MonumentRegular";
+  src: url("/fonts/monument_extended/PPMonumentExtended-Regular.otf") format("opentype");
+}
+
+
+/* Metropolis Font */
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('/fonts/metropolis/Metropolis-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: url('/fonts/metropolis/Metropolis-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Metropolis-SemiBold';
+  src: url('/fonts/metropolis/Metropolis-SemiBold.otf') format('opentype');
+}
+
+.marquee::-webkit-scrollbar {
+  display: none;
+}
+
+.elem .overlay{
+  transition: all ease 0.1s;
+}
