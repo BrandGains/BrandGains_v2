@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 
 function Hero() {
   return (
     <div className="h-full w-full flex flex-col items-center justify-center overflow-hidden">
-      <div className="h-full w-full dark:bg-[#255e45] bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+      <div className="h-full w-full bg-[#255e45] bg-grid-white/[0.2]  relative flex items-center justify-center">
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
@@ -60,7 +61,7 @@ function Hero() {
             />
           </g>
         </svg>
-        <div className="content w-10/12 z-30 flex flex-col justify-center items-center gap-8">
+        <div className="content w-10/12 z-20 flex flex-col justify-center items-center gap-8">
           <h1 className="text-3xl sm:text-7xl text-white sm:font-monument-black font-monument-regular text-center font-bold sm:leading-[4.9rem] leading-[2.5rem] sm:tracking-wide tracking-normal">
             Expert Short Form Videos Editing Agency
           </h1>
