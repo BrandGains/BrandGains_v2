@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import Service from "@/components/Service";
+import About from '@/components/About';
 
 export default function Home() {
   const serviceImage = useRef(null);
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Marquee/>
       <Service serviceImageRef={serviceImage}/>
+      <About />
     </div>
   );
 }

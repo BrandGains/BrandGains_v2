@@ -60,3 +60,7 @@ html {
 .elem .overlay{
   transition: all ease 0.1s;
 }
+
+.elem:hover .service-name::after{
+  content: ".";
+}
