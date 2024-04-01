@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import Service from "@/components/Service";
 import About from '@/components/About';
+import CTA from '@/components/CTA';
 
 export default function Home() {
   const serviceImage = useRef(null);
@@ -14,6 +15,7 @@ export default function Home() {
       <Marquee/>
       <Service serviceImageRef={serviceImage}/>
       <About />
+      <CTA/>
     </div>
   );
 }
