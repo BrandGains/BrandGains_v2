@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { FaHeart } from "react-icons/fa6";
+import Button from "./Button";
 
 function CTA() {
   return (
@@ -23,9 +24,7 @@ function CTA() {
                 </p>
               </div>
               <div className="flex flex-col items-center w-full mt-2 gap-2">
-                <button className="hover:bg-[#baff4a] px-8 py-2 bg-[#bafc50] rounded-3xl text-black text-sm font-semibold font-metropolis-semibold uppercase transform hover:-translate-y-1 transition duration-400">
-                  Get Videos You&apos;ll Be Proud Of
-                </button>
+                <Button title="Get Videos You'll Be Proud Of" />
               </div>
             </div>
           </div>

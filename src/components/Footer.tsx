@@ -4,6 +4,7 @@ import { LuInstagram } from "react-icons/lu";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import Button from "./Button";
 
 function Footer() {
   return (
@@ -14,13 +15,11 @@ function Footer() {
             <div>
               <h1 className="text-3xl font-bold md:text-6xl font-monument-black">
                 <span className="block text-white">Make Your Videos</span>
-                <span className="block text-blue-600">Go Viral</span>
+                <span className="block text-[#bafc50]">Go Viral</span>
               </h1>
             </div>
             <div className="mt-5 lg:mt-0 lg:ml-5 space-y-2.5 sm:flex sm:flex-shrink-0 sm:space-y-0 sm:space-x-2.5">
-              <button className="hover:bg-[#baff4a] px-8 py-2 bg-[#bafc50] rounded-3xl text-black text-sm font-semibold font-metropolis-semibold uppercase transform hover:-translate-y-1 transition duration-400">
-                Get Videos You&apos;ll Be Proud Of
-              </button>
+              <Button title="Get Videos You&apos;ll Be Proud Of" />
             </div>
           </div>
         </div>
@@ -87,7 +86,7 @@ function Footer() {
         <div className="py-7 border-t border-gray-700">
           <div className="flex items-center justify-center">
             <span className="text-gray-400 ">
-              ©pagedone 2024, All rights reserved.
+              ©brandgains 2024, All rights reserved.
             </span>
           </div>
         </div>
