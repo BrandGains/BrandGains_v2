@@ -2,10 +2,10 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-[#141e1d] h-full w-full relative">
+    <div className=" h-full w-full relative">
       <div className="sun absolute w-[75vh] h-[75vh] bg-amber-500 top-[15%] blur-lg -left-1/4 rounded-full z-30"></div>
       <div className="w-full h-full flex relative z-30 flex-col">
-        <h1 className="text-gray-200 text-[12rem] font-metropolis-bold  ml-20 mt-2">
+        <h1 className="text-white text-9xl font-monument-black ml-20 mt-2">
           About Us
         </h1>
         <p className="flex self-center w-2/4 text-gray-100">

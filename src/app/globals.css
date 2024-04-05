@@ -68,3 +68,19 @@ html {
 .elem:last-of-type{
   border: none !important;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+
+.grid-container > div:nth-last-child(1):nth-child(3n + 1) {
+  grid-column: span 3;
+}
+
+.grid-container > div:nth-last-child(2):nth-child(3n + 1),
+.grid-container > div:nth-last-child(2):nth-child(3n + 2) {
+  grid-column: span 2;
+}

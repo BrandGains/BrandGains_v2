@@ -74,7 +74,7 @@ function Service({ serviceImageRef }: { serviceImageRef: any }) {
     serviceImageRef.current.style.backgroundImage = `url(${imageUrl})`;
   };
   return (
-    <div className="min-h-screen w-full flex flex-col items-center text-white bg-gradient-to-tr from-[#17433c] to-[#021814] py-10 gap-11">
+    <div className="min-h-screen w-full flex flex-col items-center text-white py-10 gap-11">
       <div className="part-1 w-[95%] flex flex-col gap-4 min-h-fit font-metropolis-bold">
         <h2 className="text-xl font-metropolis-semibold">Our Services</h2>
         <div className="flex justify-between w-full items-start">

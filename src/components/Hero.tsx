@@ -3,8 +3,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="h-full w-full flex flex-col items-center justify-center overflow-hidden">
-      <div className="h-full w-full bg-[#255e45] bg-grid-white/[0.2]  relative flex items-center justify-center">
+    <div className="min-h-[100vh] w-full flex flex-col items-center justify-center overflow-hidden">
+      <div className="h-[100vh] w-full bg-[#255e45] bg-grid-white/[0.2]  relative flex items-center justify-center">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
