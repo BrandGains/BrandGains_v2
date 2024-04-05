@@ -42,7 +42,7 @@ function OurProcess() {
         </div>
         <div className="mx-auto grid grid-container grid-cols-1 gap-4 sm:justify-items-stretch md:grid-cols-3 lg:gap-8">
           {processData.map((item, index) => (
-            <div className="flex flex-col gap-4 rounded-md bg-gradient-to-tr from-[#2b2f2f] to-[#3c4646] p-8 md:p-10">
+            <div className="flex flex-col gap-4 rounded-md bg-gradient-to-tr from-[#2b2f2f] to-[#3c4646] p-8 md:p-10" key={index}>
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#bafc50]">
                 <p className="text-xl font-bold text-black">{index + 1}</p>
               </div>
