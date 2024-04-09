@@ -6,7 +6,7 @@ import Button from "./Button";
 function CTA() {
   return (
     <section className="">
-      <div className="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
+      <div className="px-5 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <div className="p-2 bg-[#bafc50] rounded-3xl">
             <div className="flex flex-col items-center justify-between h-full p-10 bg-[#171919] border  md:p-20 rounded-3xl gap-4">

@@ -74,28 +74,37 @@ function Service({ serviceImageRef }: { serviceImageRef: any }) {
     serviceImageRef.current.style.backgroundImage = `url(${imageUrl})`;
   };
   return (
-    <div className="min-h-screen w-full flex flex-col items-center text-white py-10 gap-11">
+    <div className=" w-full flex flex-col items-center text-white py-10 gap-11">
       <div className="part-1 w-[95%] flex flex-col gap-4 min-h-fit font-metropolis-bold">
-        <h2 className="text-xl font-metropolis-semibold">Our Services</h2>
+        <h2 className="text-lg sm:text-xl font-metropolis-semibold">
+          Our Services
+        </h2>
         <div className="flex justify-between w-full items-start">
-          <h2 className="text-white text-5xl font-bold">
+          <h2 className="text-white text-3xl sm:text-5xl font-bold">
             What{" "}
             <span className="bg-gradient-to-tr from-teal-400 to-sky-300 bg-clip-text text-transparent">
               Services
             </span>
             <br /> We&apos;re Offering
           </h2>
-          <TextGenerateEffect
+          {/* <TextGenerateEffect
             words={servicePara}
             className="w-5/12 text-lg font-metropolis-bold"
-          />
+          /> */}
+          <p className="w-4/5 sm:w-5/12 text-sm sm:text-lg font-metropolis-bold">
+            we offer services that can help businesses improve their visibility
+            and business reputation online: expand market reach. and increase
+            turnover through effective digital strategies.
+          </p>
         </div>
       </div>
-      <div className="part-2 w-[95%] flex flex-row gap-6">
-        <div className="left flex w-1/5 items-center justify-center bg-[#171919] rounded-t-[3rem]">
-          <h1 className="text-7xl font-monument-black -rotate-90">EDITING.</h1>
+      <div className="part-2 w-[95%] flex flex-col sm:flex-row gap-6">
+        <div className="left flex sm:w-1/5 items-center justify-center sm:bg-[#171919] sm:rounded-t-[3rem]">
+          <h1 className="text-5xl sm:text-7xl font-monument-black sm:-rotate-90 underline decoration-lime-300 sm:no-underline">
+            EDITING.
+          </h1>
         </div>
-        <div className="right w-full text-black bg-[#bafc50] px-3 rounded-t-[3rem] overflow-hidden">
+        <div className="sm:block hidden right w-full text-black bg-[#bafc50] px-3 sm:rounded-t-[3rem] overflow-hidden">
           {serviceData.map((service, index) => (
             <div
               className="elem group relative h-24 w-full flex items-center overflow-hidden border-b-[0.5px] border-[#07161b] "
@@ -120,6 +129,26 @@ function Service({ serviceImageRef }: { serviceImageRef: any }) {
             </div>
           ))}
         </div>
+        {serviceData.map((service, index) => (
+          <div
+            className="sm:hidden card bg-[#bafc50] w-full flex flex-col items-center rounded-xl py-3"
+            key={index}
+          >
+            <div
+              className="w-11/12 h-96 bg-cover bg-center rounded-t-xl"
+              style={{ backgroundImage: `url(${service.image})` }}
+            ></div>
+            <div className="w-11/12 flex flex-col bg-[#171919] items-center justify-center rounded-b-lg py-2 gap-2">
+              <h3 className="text-center font-monument-regular text-3xl text-[#bafc50]">
+                {service.name}
+              </h3>
+              <p className="text-center font-metropolis-semibold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate, vero!
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

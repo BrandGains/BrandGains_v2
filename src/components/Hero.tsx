@@ -61,8 +61,8 @@ function Hero() {
             />
           </g>
         </svg>
-        <div className="content w-10/12 z-20 flex flex-col justify-center items-center gap-8">
-          <h1 className="text-3xl sm:text-7xl text-white sm:font-monument-black font-monument-regular text-center font-bold sm:leading-[4.9rem] leading-[2.5rem] sm:tracking-wide tracking-normal">
+        <div className="content w-11/12 sm:w-10/12 z-20 flex flex-col justify-center items-center gap-8">
+          <h1 className="text-3xl sm:text-7xl text-white font-monument-black text-center sm:leading-[4.9rem] leading-[2.5rem] sm:tracking-wide tracking-normal">
             Expert Short Form Videos Editing Agency
           </h1>
           <p className="font-metropolis-semibold sm:text-2xl text-md text-white text-center sm:w-8/12 w-full underline underline-offset-2">

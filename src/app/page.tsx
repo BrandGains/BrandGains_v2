@@ -19,7 +19,7 @@ export default function Home() {
       <Hero />
       <Marquee />
       <Service serviceImageRef={serviceImage} />
-      <About />
+      {/* <About /> */}
       <OurProcess />
       <CTA />
       <Footer />

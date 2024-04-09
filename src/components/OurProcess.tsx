@@ -41,11 +41,12 @@ function OurProcess() {
             </div>
           </div>
         </div>
-        <div className="mx-auto grid grid-container grid-cols-1 gap-4 sm:justify-items-stretch md:grid-cols-3 lg:gap-8">
+        <div className="mx-auto flex flex-wrap justify-center gap-4 sm:justify-between md:justify-start md:flex-nowrap md:gap-8">
           {processData.map((item, index) => (
             <div
-              className="flex flex-col gap-4 rounded-md bg-gradient-to-tr from-[#2b2f2f] to-[#3c4646] p-8 md:p-10"
+              className="flex flex-col gap-4 rounded-lg bg-gradient-to-tr shadow-[-3px_4px_8px_0px_#283230] from-[#1b1e1e] to-[#1f2323] p-8 md:p-10"
               key={index}
+              style={{ maxWidth: "320px" }} // Limiting max width for responsiveness
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#bafc50]">
                 <p className="text-xl font-bold text-black">{index + 1}</p>
