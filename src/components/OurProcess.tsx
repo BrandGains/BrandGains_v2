@@ -26,7 +26,7 @@ const processData = [
 
 function OurProcess() {
   return (
-    <section className="pb-10">
+    <section className="pb-10" >
       <div className="mx-auto max-w-7xl px-5 py-8 md:px-10 md:py-24 lg:py-16 text-white">
         <div className="mx-auto w-full max-w-3xl">
           <div className="text-center">

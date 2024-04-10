@@ -32,10 +32,8 @@ function CTA() {
             <div className="h-full p-2 overflow-hidden bg-[#bafc50] rounded-3xl relative z-10">
               <Image
                 alt="#"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
-                className="relative rounded-2xl"
+                fill
+                className="relative rounded-2xl object-cover object-center"
                 src="https://images.pexels.com/photos/3379934/pexels-photo-3379934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               />
             </div>

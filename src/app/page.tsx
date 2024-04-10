@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import Service from "@/components/Service";
@@ -10,6 +10,15 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   const serviceImage = useRef(null);
+
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
+
   return (
     <div className="w-full bg-gradient-to-tr from-[#17433c] to-[#021814]">
       <div

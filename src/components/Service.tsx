@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { BsArrowRight } from "react-icons/bs";
 
-const servicePara =
-  "we offer services that can help businesses improve their visibility and business reputation online: expand market reach. and increase turnover through effective digital strategies.";
 
 const serviceData = [
   {
@@ -87,11 +84,7 @@ function Service({ serviceImageRef }: { serviceImageRef: any }) {
             </span>
             <br /> We&apos;re Offering
           </h2>
-          {/* <TextGenerateEffect
-            words={servicePara}
-            className="w-5/12 text-lg font-metropolis-bold"
-          /> */}
-          <p className="w-4/5 sm:w-5/12 text-sm sm:text-lg font-metropolis-bold">
+          <p className="w-4/5 sm:w-5/12 text-sm sm:text-xl font-metropolis-bold">
             we offer services that can help businesses improve their visibility
             and business reputation online: expand market reach. and increase
             turnover through effective digital strategies.
