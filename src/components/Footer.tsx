@@ -26,7 +26,7 @@ function Footer() {
       </div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-slate-200">
         <div className="py-16 flex justify-between items-center flex-col gap-8 lg:flex-row">
-          <Link href="https://pagedone.io/" className="flex justify-center ">
+          <Link href="/" className="flex justify-center ">
             <img src="/brandLogo.png" alt="" width={120} height={100} />
           </Link>
           <ul className="text-lg text-center sm:flex items-cente justify-center gap-14 lg:gap-10 xl:gap-14 transition-all duration-500">
