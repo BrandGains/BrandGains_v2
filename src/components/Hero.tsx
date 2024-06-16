@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -69,9 +70,11 @@ function Hero() {
             We deliver Top Notch Video Edits For our client. that Helps Them to
             Increase their Engagement and Grow Their business
           </p>
+          <Link href={"/Contact"}>
           <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-3xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
             Let&apos;s Connect
           </button>
+          </Link>
           </div>
         </div>
       </div>

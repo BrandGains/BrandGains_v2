@@ -14,19 +14,24 @@ function Navbar() {
   return (
     <header
       className={`fixed flex flex-col md:flex-row w-full ${
-        isOpen ? "h-full bg-gradient-to-tr from-[#17433c] to-[#021814]" : "h-fit bg-gradient-to-b from-[#021814ac] to-[#05372f14]  backdrop-blur-sm"
+        isOpen
+          ? "h-full bg-gradient-to-tr from-[#17433c] to-[#021814]"
+          : "h-fit bg-gradient-to-b from-[#021814ac] to-[#05372f14]  backdrop-blur-sm"
       } justify-between text-slate-200  md:px-10 z-50`}
     >
       <div className="flex items-center gap-28 justify-between md:justify-normal">
         <div className="logo flex items-center">
-          <Image
-            className="nav-logo m-5 object-contain object-center"
-            src="/brandLogo.png"
-            width={120}
-            sizes="(max-width: 640px) 50vw, (max-width: 768px) 30vw, 320px"
-            height={100}
-            alt=""
-          />
+          {" "}
+          <Link href={"/"}>
+            <Image
+              className="nav-logo m-5 object-contain object-center"
+              src="/brandLogo.png"
+              width={120}
+              sizes="(max-width: 640px) 50vw, (max-width: 768px) 30vw, 320px"
+              height={100}
+              alt=""
+            />{" "}
+          </Link>
         </div>
         <ul className="md:flex items-center gap-7 hidden">
           <li>
@@ -76,7 +81,9 @@ function Navbar() {
             <FaFacebook />
           </Link>
           <Link
-            href={"https://www.linkedin.com/"} className="hover:text-slate-50">
+            href={"https://www.linkedin.com/"}
+            className="hover:text-slate-50"
+          >
             <FaLinkedin />
           </Link>
         </div>
@@ -86,7 +93,7 @@ function Navbar() {
               <span className="absolute inset-0 rounded-full bg-[Image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)</div>] opacity-0 transition-opacity duration-500 </Link>group-hover:opacity-100" />
             </span>
             <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 ">
-              <Link href={"#"}>
+              <Link href={"/Contact"}>
                 <span>Let&apos;s Connect</span>
               </Link>
             </div>
@@ -122,7 +129,10 @@ function Navbar() {
             Let&apos;s Connect
           </button> */}
           <div className="social-links flex justify-between w-4/5">
-            <Link href={"https://instagram.com"} className="hover:text-slate-50">
+            <Link
+              href={"https://instagram.com"}
+              className="hover:text-slate-50"
+            >
               <LuInstagram />
             </Link>
             <Link href={"https://twitter.com"} className="hover:text-slate-50">
@@ -131,7 +141,10 @@ function Navbar() {
             <Link href={"https://facebook.com"} className="hover:text-slate-50">
               <FaFacebook />
             </Link>
-            <Link href={"https://www.linkedin.com/"} className="hover:text-slate-50">
+            <Link
+              href={"https://www.linkedin.com/"}
+              className="hover:text-slate-50"
+            >
               <FaLinkedin />
             </Link>
           </div>
