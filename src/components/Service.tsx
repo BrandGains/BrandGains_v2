@@ -85,9 +85,7 @@ function Service({ serviceImageRef }: { serviceImageRef: any }) {
             <br /> We&apos;re Offering
           </h2>
           <p className="w-4/5 sm:w-5/12 text-sm sm:text-xl font-metropolis-bold">
-            we offer services that can help businesses improve their visibility
-            and business reputation online: expand market reach. and increase
-            turnover through effective digital strategies.
+          We offer services like Editing Short-Form Content and running AD&apos;s based on them. All the Services have a systematic plan that is followed to give the best results to the business.
           </p>
         </div>
       </div>

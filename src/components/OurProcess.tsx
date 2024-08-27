@@ -3,40 +3,39 @@ import Button from "./Button";
 
 const processData = [
   {
-    title: "Find Your Video",
+    title: "Talking about the services that businesses require",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "Here we listen to your requirements and need.",
   },
   {
-    title: "Copy and Paste",
+    title: "Creating a Plan",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "This is the place where we would discuss a plan that works with your requirements",
+  },
+  {
+    title: "promising partnership!",
+    description:
+      "Hey! You are welcome in our partnership. I hope we have a great collaboration.",
   },
   {
     title: "Done",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
-  },
-  {
-    title: "Done",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam, purus sit.",
+      "You are all set. Leave everything to us",
   },
 ];
 
 function OurProcess() {
   return (
-    <section className="pb-10" >
+    <section className="pb-10">
       <div className="mx-auto max-w-7xl px-5 py-8 md:px-10 md:py-24 lg:py-16 text-white">
         <div className="mx-auto w-full max-w-3xl">
           <div className="text-center">
             <h2 className="text-3xl capitalize md:text-7xl font-bold font-monument-regular">
-              How it Works
+              How do we work?
             </h2>
             <div className="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
               <p className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam,purus sit amet luctus magna fringilla urna
+                In order to make the procedure easier for the service taker, we maintain a basic and straightforward plan.
               </p>
             </div>
           </div>
@@ -62,7 +61,7 @@ function OurProcess() {
         </div>
       </div>
       <div className="flex justify-center w-full">
-        <Button title="Let&apos;s Work Together" />
+        <Button title="Let's Work Together" />
       </div>
     </section>
   );

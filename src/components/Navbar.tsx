@@ -35,22 +35,22 @@ function Navbar() {
         </div>
         <ul className="md:flex items-center gap-7 hidden">
           <li>
-            <Link href={"#"} className="hover:text-slate-50">
+            <Link href={"/"} className="hover:text-slate-50">
               Services
             </Link>
           </li>
           <li>
-            <Link href={"#"} className="hover:text-slate-50">
+            <Link href={"https://www.youtube.com/playlist?list=PL6IvDHdRMSPBbAPZn6HbHBiWgRQlGbshz"} className="hover:text-slate-50">
               Portfolio
             </Link>
           </li>
           <li>
-            <Link href={"#"} className="hover:text-slate-50">
+            <Link href={"/"} className="hover:text-slate-50">
               About Us
             </Link>
           </li>
           <li>
-            <Link href={"#"} className="hover:text-slate-50">
+            <Link href={"/"} className="hover:text-slate-50">
               Blog
             </Link>
           </li>
@@ -71,17 +71,17 @@ function Navbar() {
       </div>
       <div className="md:flex items-center gap-10 hidden">
         <div className="socialmedia flex items-center gap-5">
-          <Link href={"https://instagram.com"} className="hover:text-slate-50">
+          <Link href={"ttps://www.instagram.com/brandgains/"} className="hover:text-slate-50">
             <LuInstagram />
           </Link>
-          <Link href={"https://twitter.com"} className="hover:text-slate-50">
+          <Link href={"https://x.com/Brand_Gains"} className="hover:text-slate-50">
             <RiTwitterXLine />
           </Link>
-          <Link href={"https://facebook.com"} className="hover:text-slate-50">
+          <Link href={"https://www.facebook.com/profile.php?id=61554325564900"} className="hover:text-slate-50">
             <FaFacebook />
           </Link>
           <Link
-            href={"https://www.linkedin.com/"}
+            href={"https://www.linkedin.com/in/brandgains/"}
             className="hover:text-slate-50"
           >
             <FaLinkedin />
@@ -130,19 +130,19 @@ function Navbar() {
           </button> */}
           <div className="social-links flex justify-between w-4/5">
             <Link
-              href={"https://instagram.com"}
+              href={"https://www.instagram.com/brandgains/"}
               className="hover:text-slate-50"
             >
               <LuInstagram />
             </Link>
-            <Link href={"https://twitter.com"} className="hover:text-slate-50">
+            <Link href={"https://x.com/Brand_Gains"} className="hover:text-slate-50">
               <RiTwitterXLine />
             </Link>
-            <Link href={"https://facebook.com"} className="hover:text-slate-50">
+            <Link href={"https://www.facebook.com/profile.php?id=61554325564900"} className="hover:text-slate-50">
               <FaFacebook />
             </Link>
             <Link
-              href={"https://www.linkedin.com/"}
+              href={"https://www.linkedin.com/in/brandgains/"}
               className="hover:text-slate-50"
             >
               <FaLinkedin />

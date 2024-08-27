@@ -31,52 +31,52 @@ function Footer() {
           </Link>
           <ul className="text-lg text-center sm:flex items-cente justify-center gap-14 lg:gap-10 xl:gap-14 transition-all duration-500">
             <li>
-              <Link href="#" className="hover:text-slate-50">
+              <Link href="/" className="hover:text-slate-50">
                 Brand Gains
               </Link>
             </li>
             <li className="sm:my-0 my-2">
-              <Link href="#" className="hover:text-slate-50">
-                Products
+              <Link href="https://www.youtube.com/playlist?list=PL6IvDHdRMSPBbAPZn6HbHBiWgRQlGbshz" className="hover:text-slate-50">
+                Portfolio
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-slate-50">
-                Resources
+              <Link href="/" className="hover:text-slate-50">
+                About Us
               </Link>
             </li>
             <li className="sm:my-0 my-2">
-              <Link href="#" className="hover:text-slate-50">
+              <Link href="/" className="hover:text-slate-50">
                 Blog
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-slate-50">
-                Support
+              <Link href="/" className="hover:text-slate-50">
+                Services
               </Link>
             </li>
           </ul>
           <div className="flex  space-x-4 gap-4 sm:justify-center  ">
             <Link
-              href="#"
+              href="ttps://www.instagram.com/brandgains/"
               className="hover:text-slate-50  flex justify-center items-center "
             >
               <LuInstagram />
             </Link>
             <Link
-              href="#"
+              href="https://x.com/Brand_Gains"
               className="hover:text-slate-50  flex justify-center items-center "
             >
               <RiTwitterXLine />
             </Link>
             <Link
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61554325564900"
               className="hover:text-slate-50  flex justify-center items-center "
             >
               <FaFacebook />
             </Link>
             <Link
-              href="#"
+              href="https://www.linkedin.com/in/brandgains/"
               className="hover:text-slate-50  flex justify-center items-center "
             >
               <FaLinkedin />

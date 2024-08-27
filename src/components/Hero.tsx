@@ -64,20 +64,19 @@ function Hero() {
         </svg>
         <div className="content w-11/12 sm:w-10/12 z-20 flex flex-col justify-center items-center gap-8">
           <h1 className="text-3xl sm:text-7xl text-white font-monument-black text-center sm:leading-[4.9rem] leading-[2.5rem] sm:tracking-wide tracking-normal">
-            Expert Short Form Videos Editing Agency
+            Expert Marketing & Short-Form Content Editing Agency
           </h1>
           <p className="font-metropolis-semibold sm:text-2xl text-md text-white text-center sm:w-8/12 w-full underline underline-offset-2">
-            We deliver Top Notch Video Edits For our client. that Helps Them to
-            Increase their Engagement and Grow Their business
+          We deliver Short-Form Edits that doesn&apos;t just help clients grow their business but also build a engaging page.
           </p>
           <Link href={"/Contact"}>
-          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-3xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-            Let&apos;s Connect
-          </button>
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-3xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+              Let&apos;s Connect
+            </button>
           </Link>
-          </div>
         </div>
       </div>
+    </div>
   );
 }
 

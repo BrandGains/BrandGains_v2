@@ -13,7 +13,7 @@ function CTA() {
               <div>
                 <span className="text-sm font-semibold text-gray-100 uppercase font-metropolis-bold text-center">
                   <FaHeart className="whitespace-nowrap inline-block text-red-500 animate-bounce text-lg" />{" "}
-                  Lorem, ipsum.
+                  Brand Gains
                 </span>
                 <h1 className="mt-8 text-4xl text-start tracking-normal underline decoration-lime-300 underline-offset-2  text-white font-monument-black-italic">
                   Make Your Videos Go Viral
