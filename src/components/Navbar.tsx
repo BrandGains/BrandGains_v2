@@ -49,11 +49,6 @@ function Navbar() {
               About Us
             </Link>
           </li>
-          <li>
-            <Link href={"/"} className="hover:text-slate-50">
-              Blog
-            </Link>
-          </li>
         </ul>
         <div className="flex items-center lg:hidden xl:hidden">
           {isOpen ? (
