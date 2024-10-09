@@ -23,7 +23,7 @@ export default function Home() {
     <div className="w-full bg-gradient-to-tr from-[#17433c] to-[#021814]">
       <div
         ref={serviceImage}
-        className="service-image fixed h-[26rem] w-[20rem] rounded-3xl z-30 left-[65%] top-1/4 hidden"
+        className="service-image fixed h-[26rem] w-[20rem] rounded-3xl z-30 left-[65%] top-1/4 hidden pointer-events-none"
       ></div>
       <Hero />
       <Marquee />

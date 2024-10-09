@@ -101,7 +101,7 @@ const ContactForm = () => {
                       />
                     </svg>
                     <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                      +91 9810544923
+                      +91 9810544923 <u>Vansh Goel</u>
                     </div>
                   </div>
                 </div>

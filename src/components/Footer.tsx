@@ -45,11 +45,6 @@ function Footer() {
                 About Us
               </Link>
             </li>
-            <li className="sm:my-0 my-2">
-              <Link href="/" className="hover:text-slate-50">
-                Blog
-              </Link>
-            </li>
             <li>
               <Link href="/" className="hover:text-slate-50">
                 Services
