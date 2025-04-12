@@ -40,7 +40,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href={"https://www.youtube.com/playlist?list=PL6IvDHdRMSPBbAPZn6HbHBiWgRQlGbshz"} className="hover:text-slate-50">
+            <Link href={"/portfolio"} className="hover:text-slate-50">
               Portfolio
             </Link>
           </li>
