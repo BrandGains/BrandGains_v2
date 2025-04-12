@@ -220,7 +220,7 @@ export default function PortfolioPage() {
                 Ready to <span className="text-[#bafc50]">Stand Out</span>?
               </h2>
               <p className="text-white/80 font-metropolis-medium max-w-xl">
-                Let's create content that captures attention and drives results. Our team is ready to help your brand
+                Let&apos;s create content that captures attention and drives results. Our team is ready to help your brand
                 shine.
               </p>
             </div>
